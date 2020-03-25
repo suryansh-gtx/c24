@@ -20,7 +20,7 @@ class pig {
       rotate(angle);
       rectMode(CENTER);
       fill("green");
-      rect(pos.x, pos.y, this.width, this.height);
+      rect(0, 0, this.width, this.height);
       pop();
     }
   };
